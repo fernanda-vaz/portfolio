@@ -7,7 +7,7 @@
       "platform": "LinkedIn",
       "url": "http://www.linkedin.com/in/vaz-fernanda",
       "image": {
-        "url": "/icons/social/darkpurple-linkedin.svg"
+        "url": "./icons/social/darkpurple-linkedin.svg"
       },
       "enabled": true
     },
@@ -17,7 +17,7 @@
       "platform": "GitHub",
       "url": "https://github.com/fernanda-vaz",
       "image": {
-        "url": "/icons/social/darkpurple-github.svg"
+        "url": "./icons/social/darkpurple-github.svg"
       }
     },
     {
@@ -26,7 +26,7 @@
       "platform": "WhatsApp",
       "url": "https://wa.link/ax1g3o",
       "image": {
-        "url": "/icons/social/darkpurple-whatsapp.svg"
+        "url": "./icons/social/darkpurple-whatsapp.svg"
       }
     }
   ],
@@ -40,7 +40,7 @@
     "phoneNumber": "+55 61 99000-8520",
     "contactEmail": "fernandavazdev@gmail.com",
     "avatar": {
-      "url": "/profile-2.png"
+      "url": "./profile-2.png"
     }
   },
 
@@ -162,7 +162,7 @@
       "title": "Converte Agora",
       "subtitle": "Página de conversão de diversas unidades.",
       "image": {
-        "url": "/projects/project-convert.png"
+        "url": "./projects/project-convert.png"
       },
       "description": "A ferramenta perfeita para realizar conversões de unidades de forma rápida e precisa. De aceleração a volume, oferecemos uma ampla variedade de conversores para atender às suas necessidades. Simples, eficiente e confiável.",
       "techStack": ["Reactjs", "Nodejs", "Styled Components"],
@@ -175,7 +175,7 @@
       "title": "Link Bio",
       "subtitle": "Página pessoal de links.",
       "image": {
-        "url": "/projects/project-linkbio.png"
+        "url": "./projects/project-linkbio.png"
       },
       "description": "Projeto pessoal de uma página de links personalizada desenvolvida utilizando ReactJS e criada para organizar e centralizar os principais conteúdos e redes sociais de um profissional ou marca pessoal. O design é moderno, minimalista e responsivo, refletindo uma experiência de usuário intuitiva e eficiente.",
       "techStack": ["Reactjs", "Nodejs", "Sass"],
@@ -188,7 +188,7 @@
       "title": "Previsão do Tempo",
       "subtitle": "App de previsão de tempo.",
       "image": {
-        "url": "/projects/project-weather.png"
+        "url": "./projects/project-weather.png"
       },
       "description": "Este projeto é uma aplicação web que utiliza APIs para fornecer dados climáticos de qualquer cidade do mundo, incluindo temperatura, condições climáticas e umidade. A interface também exibe uma imagem de fundo aleatória que muda a cada atualização da página, oferecendo uma experiência visual dinâmica e imersiva. Desenvolvido com HTML, CSS e JavaScript.",
       "techStack": ["HTML", "JavaScript", "CSS"],
@@ -201,7 +201,7 @@
       "title": "Landing Page",
       "subtitle": "Exemplo de Landing Page.",
       "image": {
-        "url": "/projects/project-landing-page.png"
+        "url": "./projects/project-landing-page.png"
       },
       "description": "Esta landing page foi desenvolvida com React e Vite, projetada para demonstrar habilidades em construção de interfaces modernas e otimizadas para conversão. O design é limpo e profissional, com foco na apresentação clara de informações e um call-to-action atrativo para os visitantes. Design gratuito disponível em Figma Community.",
       "techStack": ["Reactjs ", "Styled Components", "Nodejs"],
@@ -214,7 +214,7 @@
       "title": "Jogo Adivinhe o Número",
       "subtitle": "Jogo de adivinhação de número aleatório a cada rodada.",
       "image": {
-        "url": "/projects/project-gess-the-number.png"
+        "url": "./projects/project-gess-the-number.png"
       },
       "description": "Jogo de adivinhação no qual o usuário tenta descobrir, com base nas dicas cada vez que erra um palpite, qual número aleatório foi gerado. Desenvolvido com HTML, CSS e JavaScript.",
       "techStack": ["HTML", "JavaScript", "CSS"],
@@ -227,7 +227,7 @@
       "title": "Linktree - Bruna Tassy",
       "subtitle": "Página de links.",
       "image": {
-        "url": "/projects/project-linketree.png"
+        "url": "./projects/project-linketree.png"
       },
       "description": "Este projeto é uma página de links personalizada desenvolvida utilizando HTML, CSS e JavaScript, criada para organizar e centralizar os principais conteúdos e redes sociais de um profissional ou marca pessoal. O design é moderno, minimalista e responsivo, refletindo uma experiência de usuário intuitiva e eficiente.",
       "techStack": ["HTML", "JavaScript", "CSS"],
@@ -240,7 +240,7 @@
       "title": "Lista de Tarefas",
       "subtitle": "Exemplo de lista de tarefas.",
       "image": {
-        "url": "/projects/project-to-do-list.png"
+        "url": "./projects/project-to-do-list.png"
       },
       "description": "Desenvolvido com HTML, CSS e JavaScript, o objetivo do projeto foi criar uma lista de tarfas com funcionalidade de editar e/ou excluir os ítens.",
       "techStack": ["HTML", "JavaScript", "CSS"],
@@ -253,7 +253,7 @@
       "title": "Formulário de Cadastro/Login",
       "subtitle": "Exemplo de Formulário de Login.",
       "image": {
-        "url": "/projects/project-login.png"
+        "url": "./projects/project-login.png"
       },
       "description": " Formulário de cadastro e login de usuários desenvolvido apenas com HTML e CSS.",
       "techStack": ["HTML", "CSS"],

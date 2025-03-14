@@ -139,7 +139,7 @@ const Header = ({ social }: HeaderProps) => {
       <Transition className='fixed md:top-8 top-0 md:left-8 left-6 z-30 '>
         <Link href={'/'} className='flex items-center gap-4'>
           <Image 
-            src={'/logo.png'}
+            src={'./logo.png'}
             alt='Logo Fernanda Vaz'
             width={80}
             height={80}
