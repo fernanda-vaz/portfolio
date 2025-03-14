@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-darkPurple-400: #52498c;
+  --color-darkPurple-500: #302a59;
+  --color-darkPurple-900: #120f26;
+  --color-neonGreen-400: #57f2aa;
+  --color-fontColor-50: #f2f2f2;
+  --color-fontColor-900: #333333;
+
+  --font-epi: var(--font-epi);
+  --font-ibm: var(--font-ibm);
+}
+
+:root {
+  --background: #120f26;
+  --foreground: #bfbfc6;
+
+  --primary: #57f2aa;
+  --primary-foreground: #fafafa;
+
+  --secondary: #f4f4f5;
+  --secondary-foreground: #1c1d20;
+
+  --opacity-color: #302a59;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #120f26;
+    --foreground: #f2f2f2;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  width: 2px;
+  border-radius: calc(infinity * 1px);
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+.blob {
+  background: conic-gradient(from 2.35rad, #57f2aa, rgba(18, 15, 38, 0.5));
+}
+
+.text-reveal {
+  display: inline;
+  background: linear-gradient(
+    to right,
+    rgba(var(--opacity-color), 1) 0%,
+    rgba(var(--opacity-color), 1) 50%,
+    rgba(var(--opacity-color), 0.2) 50%,
+    rgba(var(--opacity-color), 0.2) 100%
+  );
+  background-clip: text;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: #fafafa;
+  background-repeat: no-repeat;
+}
