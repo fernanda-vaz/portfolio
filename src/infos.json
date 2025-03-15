@@ -177,7 +177,7 @@
       "image": {
         "url": "./projects/project-audio-shop.png"
       },
-      "description": "Audio Shop é um projeto fictício de e-commerce criado para fins de aprendizado e para dmostrar meus conhecimentos em desenvolvimento full stack. O objetivo principal desse projeto é testar e demonstrar o uso de tecnologias modernas no desenvolvimento de uma aplicação web com backend e frontend, além de focar em boas práticas como autenticação de usuários, consumo de APIs REST e desenvolvimento responsivo.",
+      "description": "Audio Shop é um projeto fictício de e-commerce criado para fins de aprendizado e para dmostrar meus conhecimentos em desenvolvimento full stack. O objetivo principal desse projeto é testar e demonstrar o uso de tecnologias modernas no desenvolvimento de uma aplicação web com backend e frontend, além de focar em boas práticas como autenticação de usuários, consumo de APIs REST e desenvolvimento responsivo. Usuário para login: test@email.com; senha: test123",
       "techStack": ["Reactjs", "Nodejs", "CSS"],
       "enabled": true
     },
