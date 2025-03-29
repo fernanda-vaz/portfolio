@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #f2f2f2;
+  --foreground: #120f26;
+}
+
+@theme inline {
+  --color-darkPurple-400: #52498c;
+  --color-darkPurple-500: #302a59;
+  --color-darkPurple-900: #120f26;
+  --color-neonGreen-400: #57f2aa;
+  --color-fontColor-50: #f2f2f2;
+  --color-fontColor-900: #333333;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-epilogue-sans);
+  --font-mono: var(--font-ibm-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  width: 2px;
+  border-radius: calc(infinity * 1px);
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+.blob {
+  background: conic-gradient(from 2.35rad, #57f2aa, rgb(82, 73, 140, 0.6));
+}
+
+.text-reveal {
+  display: inline;
+  background: linear-gradient(
+    to right,
+    rgba(var(--opacity-color), 1) 0%,
+    rgba(var(--opacity-color), 1) 50%,
+    rgba(var(--opacity-color), 0.2) 50%,
+    rgba(var(--opacity-color), 0.2) 100%
+  );
+  background-clip: text;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: #fafafa;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,274 @@
+{
+  "social_handles": [
+    {
+      "id": "1",
+      "platform": "LinkedIn",
+      "url": "http://www.linkedin.com/in/vaz-fernanda",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/icons/social/darkpurple-linkedin.svg"
+      },
+      "enabled": true
+    },
+    {
+      "id": "2",
+      "enabled": true,
+      "platform": "GitHub",
+      "url": "https://github.com/fernanda-vaz",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/icons/social/darkpurple-github.svg"
+      }
+    },
+    {
+      "id": "3",
+      "enabled": true,
+      "platform": "WhatsApp",
+      "url": "https://wa.link/ax1g3o",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/icons/social/darkpurple-whatsapp.svg"
+      }
+    }
+  ],
+
+  "about": {
+    "name": "Fernanda Vaz",
+    "title": "Desenvolvedora Front-end",
+    "subtitle": "Crio interfaces modernas, interativas e de alto desempenho.",
+    "description": "Atuo como desenvolvedora web criando sites, landing pages, otimizando SEO e integrando APIs REST. Atualmente curso uma pós-graduação em Full Stack Development na FIAP e tenho me dedicado a diversos cursos para aprimorar minhas habilidades. Meu objetivo é me tornar uma desenvolvedora Full Stack, combinando habilidades técnicas e visão criativa para entregar projetos funcionais e inovadores.",
+    "address": "Brasília - Distrito Federal",
+    "phone": "+55 61 99000-8520",
+    "email": "fernandavazdev@gmail.com",
+    "avatar": {
+      "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/profile.png"
+    }
+  },
+
+  "skills": [
+    {
+      "id": "1",
+      "enabled": true,
+      "name": "Docker"
+    },
+    {
+      "id": "2",
+      "enabled": true,
+      "name": "Figma"
+    },
+    {
+      "id": "3",
+      "enabled": true,
+      "name": "TypeScript"
+    },
+    {
+      "id": "4",
+      "enabled": true,
+      "name": "Node.js"
+    },
+    {
+      "id": "5",
+      "enabled": true,
+      "name": "MongoDB"
+    },
+    {
+      "id": "6",
+      "enabled": true,
+      "name": "Javascript"
+    },
+    {
+      "id": "7",
+      "enabled": true,
+      "name": "Git"
+    },
+    {
+      "id": "8",
+      "enabled": true,
+      "name": "Github"
+    },
+    {
+      "id": "9",
+      "enabled": true,
+      "name": "Sass"
+    },
+    {
+      "id": "10",
+      "enabled": true,
+      "name": "Vercel"
+    },
+    {
+      "id": "11",
+      "enabled": true,
+      "name": "Next.js"
+    },
+    {
+      "id": "12",
+      "enabled": true,
+      "name": "React"
+    },
+    {
+      "id": "13",
+      "enabled": true,
+      "name": "Tailwind"
+    },
+    {
+      "id": "14",
+      "enabled": true,
+      "name": "Styled Components"
+    },
+    {
+      "id": "15",
+      "enabled": true,
+      "name": "CSS"
+    },
+    {
+      "id": "16",
+      "enabled": true,
+      "name": "HTML"
+    }
+  ],
+
+  "services": [
+    {
+      "id": "1",
+      "name": "Criação de Sites",
+      "desc": "Desenvolvimento de sites completos e personalizados para sua empresa ou projeto, garantindo que sejam modernos, responsivos (funcionam bem em celulares e computadores) e fáceis de usar.",
+      "enabled": true
+    },
+    {
+      "id": "2",
+      "name": "Criação de Langing Pages",
+      "desc": "Criação de páginas de captura (landing pages) focadas em conversão, ideais para campanhas de marketing, promoções ou lançamentos, com design atraente e que incentivam o usuário a realizar uma ação, como preencher um formulário ou fazer uma compra.",
+      "enabled": true
+    },
+    {
+      "id": "3",
+      "name": "Otimização de SEO",
+      "desc": "Otimização de sites para que apareçam melhor colocados nos resultados de busca do Google, ajudando sua empresa a ser encontrada por mais clientes sem precisar de anúncios pagos.",
+      "enabled": true
+    },
+    {
+      "id": "4",
+      "name": "Consumo de APIs REST",
+      "desc": "Integração de sistemas e funcionalidades externas ao seu site ou aplicativo como pagamentos, mapas ou redes sociais, para que tudo funcione de forma automática e eficiente.",
+      "enabled": true
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "1",
+      "liveurl": "https://converteagora.com.br",
+      "githuburl": "#",
+      "title": "Converte Agora",
+      "subtitle": "Página de conversão de diversas unidades.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-convert.png"
+      },
+      "description": "A ferramenta perfeita para realizar conversões de unidades de forma rápida e precisa. De aceleração a volume, oferecemos uma ampla variedade de conversores para atender às suas necessidades. Simples, eficiente e confiável.",
+      "techStack": ["Reactjs", "Nodejs", "Styled Components"],
+      "enabled": true
+    },
+    {
+      "id": "2",
+      "liveurl": "https://audio-shop-three.vercel.app",
+      "githuburl": "https://github.com/fernanda-vaz/audio-shop",
+      "title": "Audio Shop",
+      "subtitle": "Projeto pessoal full stack de E-commerce.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-audio-shop.png"
+      },
+      "description": "Audio Shop é um projeto fictício de e-commerce criado para fins de aprendizado e para dmostrar meus conhecimentos em desenvolvimento full stack. O objetivo principal desse projeto é testar e demonstrar o uso de tecnologias modernas no desenvolvimento de uma aplicação web com backend e frontend, além de focar em boas práticas como autenticação de usuários, consumo de APIs REST e desenvolvimento responsivo. Usuário teste para login: test@email.com; senha: test123",
+      "techStack": ["Reactjs", "Nodejs", "CSS"],
+      "enabled": true
+    },
+    {
+      "id": "3",
+      "liveurl": "https://fernanda-vaz.github.io/link-bio/",
+      "githuburl": "https://github.com/fernanda-vaz/link-bio",
+      "title": "Link Bio",
+      "subtitle": "Página pessoal de links.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-linkbio.png"
+      },
+      "description": "Projeto pessoal de uma página de links personalizada desenvolvida utilizando ReactJS e criada para organizar e centralizar os principais conteúdos e redes sociais de um profissional ou marca pessoal. O design é moderno, minimalista e responsivo, refletindo uma experiência de usuário intuitiva e eficiente.",
+      "techStack": ["Reactjs", "Nodejs", "Sass"],
+      "enabled": true
+    },
+    {
+      "id": "4",
+      "liveurl": "https://previsao-do-tempo-sand.vercel.app",
+      "githuburl": "https://github.com/fernanda-vaz/previsao-do-tempo",
+      "title": "Previsão do Tempo",
+      "subtitle": "App de previsão de tempo.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-weather.png"
+      },
+      "description": "Este projeto é uma aplicação web que utiliza APIs para fornecer dados climáticos de qualquer cidade do mundo, incluindo temperatura, condições climáticas e umidade. A interface também exibe uma imagem de fundo aleatória que muda a cada atualização da página, oferecendo uma experiência visual dinâmica e imersiva. Desenvolvido com HTML, CSS e JavaScript.",
+      "techStack": ["HTML", "JavaScript", "CSS"],
+      "enabled": true
+    },
+    {
+      "id": "5",
+      "liveurl": "https://landing-page-amber-eta.vercel.app",
+      "githuburl": "https://github.com/fernanda-vaz/landing-page",
+      "title": "Landing Page",
+      "subtitle": "Exemplo de Landing Page.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-landing-page.png"
+      },
+      "description": "Esta landing page foi desenvolvida com React e Vite, projetada para demonstrar habilidades em construção de interfaces modernas e otimizadas para conversão. O design é limpo e profissional, com foco na apresentação clara de informações e um call-to-action atrativo para os visitantes. Design gratuito disponível em Figma Community.",
+      "techStack": ["Reactjs ", "Styled Components", "Nodejs"],
+      "enabled": true
+    },
+    {
+      "id": "6",
+      "liveurl": "https://adivinhe-o-numero-lyart.vercel.app",
+      "githuburl": "https://github.com/fernanda-vaz/adivinhe-o-numero",
+      "title": "Jogo Adivinhe o Número",
+      "subtitle": "Jogo de adivinhação de número aleatório a cada rodada.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-gess-the-number.png"
+      },
+      "description": "Jogo de adivinhação no qual o usuário tenta descobrir, com base nas dicas cada vez que erra um palpite, qual número aleatório foi gerado. Desenvolvido com HTML, CSS e JavaScript.",
+      "techStack": ["HTML", "JavaScript", "CSS"],
+      "enabled": true
+    },
+    {
+      "id": "7",
+      "liveurl": "https://linktree-bruna-tassy.vercel.app",
+      "githuburl": "https://github.com/fernanda-vaz/linktree-bruna-tassy",
+      "title": "Linktree - Bruna Tassy",
+      "subtitle": "Página de links.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-linketree.png"
+      },
+      "description": "Este projeto é uma página de links personalizada desenvolvida utilizando HTML, CSS e JavaScript, criada para organizar e centralizar os principais conteúdos e redes sociais de um profissional ou marca pessoal. O design é moderno, minimalista e responsivo, refletindo uma experiência de usuário intuitiva e eficiente.",
+      "techStack": ["HTML", "JavaScript", "CSS"],
+      "enabled": true
+    },
+    {
+      "id": "8",
+      "liveurl": "https://todo-list-two-psi-12.vercel.app",
+      "githuburl": "https://github.com/fernanda-vaz/todo-list",
+      "title": "Lista de Tarefas",
+      "subtitle": "Exemplo de lista de tarefas.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-to-do-list.png"
+      },
+      "description": "Desenvolvido com HTML, CSS e JavaScript, o objetivo do projeto foi criar uma lista de tarfas com funcionalidade de editar e/ou excluir os ítens.",
+      "techStack": ["HTML", "JavaScript", "CSS"],
+      "enabled": true
+    },
+    {
+      "id": "9",
+      "liveurl": "https://login-ashy-two.vercel.app",
+      "githuburl": "https://github.com/fernanda-vaz/login",
+      "title": "Formulário de Cadastro/Login",
+      "subtitle": "Exemplo de Formulário de Login.",
+      "image": {
+        "url": "https://raw.githubusercontent.com/fernanda-vaz/portfolio-assets/main/projects/project-login.png"
+      },
+      "description": " Formulário de cadastro e login de usuários desenvolvido apenas com HTML e CSS.",
+      "techStack": ["HTML", "CSS"],
+      "enabled": true
+    }
+  ]
+}
